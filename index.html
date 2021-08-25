@@ -10,6 +10,80 @@
 </head>
 <body>
 
+  <div class="container-lg">
+
+    <!-- **************** currency ******************* -->
+
+    <h1 class="h2 text-primary text-center py-2 font-weight-bold">
+      Currency with JS
+    </h1>
+      <form class="currency-form__box py-3 d-flex" action="https://echo.htmlacademy.ru">
+
+        <input class="currency-input form-control mr-4" type="number" placeholder="value">
+
+        <select class="currency-select custom-select mr-4">
+          <option disabled selected>Type</option>
+          <option value="10600">Dollar</option>
+          <option value="11600">Euro</option>
+          <option value="320">Rubl</option>
+          <option value="4000">yuang</option>
+          <option value="20000">Gold</option>
+        </select>
+
+        <button class="currency-btn btn btn-primary" type="submit">Submit</button>
+      </form>
+
+      <span class="text-secondary">
+        Result:
+        <span class="currency-overcome text-primary"></span>
+      </span>
+
+      <hr>
+
+      <!-- ****************** FizzBuzz ******************** -->
+
+
+    <h1 class="h2 text-success text-left py-2 font-weight-bold">FizzBuzz</h1>
+      <form class="game-form__box py-3 d-flex" action="https://echo.htmlacademy.ru">
+        <input class="game-input form-control w-25 mr-4" type="number">
+        <button class="game-btn btn btn-success" type="game-btn submit">Result</button>
+      </form>
+
+      <span class="text-secondary">
+        Outcome:
+        <span class="game-overcome text-success"></span>
+      </span>
+
+      <hr>
+
+      <!-- ****** find a number ****** -->
+
+      <h1 class="h2 text-dark font-weight-bold">Game</h1>
+
+      <form class="play-form__box py-3" action="https://echo.htmlacademy.ru">
+
+        <div class="d-flex align-items-center mb-4">
+          <span class="text-dark mr-4">
+            choose a number from 0 to 100
+          </span>
+          <input class="play-input form-control w-25" min="1" max="100" type="number">
+        </div>
+
+        <div class="d-flex align-items-center">
+          <button class="play-button btn btn-dark mr-5" type="submit">Start</button>
+
+          <div>
+            <span class="text-dark">Result:
+            <span class="play-result  text-danger"></span>
+            </span>
+          </div>
+        </div>
+
+      </form>
+
+  </div>
+
+
 </body>
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
