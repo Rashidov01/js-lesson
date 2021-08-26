@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Countries</title>
+  <title>JS-lesson</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -44,8 +44,9 @@
 
 
     <h1 class="h2 text-success text-left py-2 font-weight-bold">FizzBuzz</h1>
-      <form class="game-form__box py-3 d-flex" action="https://echo.htmlacademy.ru">
-        <input class="game-input form-control w-25 mr-4" type="number">
+      <form class="game-form__box py-3 d-flex" action="https://echo.htmlacademy.ru" method="GET">
+        <input class="game-input form-control w-25 mr-4" type="number" name="number" aria-label="user number" min="1" max="100
+        " required>
         <button class="game-btn btn btn-success" type="game-btn submit">Result</button>
       </form>
 
